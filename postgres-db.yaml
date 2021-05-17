@@ -1,0 +1,18 @@
+global:
+  postgresql:
+    postgresqlPassword: test
+    postgresqlDatabase: db1
+initdbScripts:
+  initdb1.sql: CREATE DATABASE db2
+  initdb2.sql: CREATE DATABASE db3
+  initdb3.sql: CREATE DATABASE db4
+  initdb4.sql: CREATE DATABASE db5
+  initdb5.sql: CREATE DATABASE db6
+  initdb6.sql: CREATE DATABASE db7
+  initdb7.sql: CREATE DATABASE db8
+  initdb8.sql: CREATE DATABASE db9
+  initdb9.sql: CREATE DATABASE db0
+
+
+
+
