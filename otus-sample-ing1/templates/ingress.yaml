@@ -33,6 +33,14 @@ spec:
             backend:
               serviceName: my-order-otus-sample-order
               servicePort: 8000
+          - path: /warehouseproducts
+            backend:
+              serviceName: my-warehouse-otus-sample-warehouse
+              servicePort: 8000
+          - path: /deliveries
+            backend:
+              serviceName: my-delivery-otus-sample-delivery
+              servicePort: 8000
           - path: /events
             backend:
               serviceName: my-event-otus-sample-event

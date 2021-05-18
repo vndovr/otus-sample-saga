@@ -12,8 +12,8 @@ helm install my-event -f otus-sample-event.yaml ./otus-sample-event
 helm install my-order -f otus-sample-order.yaml ./otus-sample-order
 helm install my-bill -f otus-sample-bill.yaml ./otus-sample-bill
 helm install my-email -f otus-sample-email.yaml ./otus-sample-email
-helm install my-warehouse - f otus-sample-warehouse.yaml ./otus-sample-warehouse
-helm install my-delivery - f otus-sample-delivery.yaml ./otus-sample-delivery
+helm install my-warehouse -f otus-sample-warehouse.yaml ./otus-sample-warehouse
+helm install my-delivery -f otus-sample-delivery.yaml ./otus-sample-delivery
 
 helm install my-ing1 -f otus-sample-ing.yaml ./otus-sample-ing1
 helm install my-ing2 -f otus-sample-ing.yaml ./otus-sample-ing2
