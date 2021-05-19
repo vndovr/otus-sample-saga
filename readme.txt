@@ -18,7 +18,7 @@ helm install my-delivery -f otus-sample-delivery.yaml ./otus-sample-delivery
 helm install my-ing1 -f otus-sample-ing.yaml ./otus-sample-ing1
 helm install my-ing2 -f otus-sample-ing.yaml ./otus-sample-ing2
 
-newman run Otus-8.postman_collection.json -e Otus8.postman_environment.json --delay-request 100
+newman run Otus-8.postman_collection.json -e Otus8.postman_environment.json --delay-request 200
                                                                                                
 helm uninstall my-ing1
 helm uninstall my-ing2
